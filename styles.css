@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif; /*fuente del body*/
+    margin: 0; /*margen body*/
+    background-color: peachpuff; /*Fondo body*/
+}
+
+/* Estilo del header*/
+header {
+    background-color: #f6dbdb; /* Morado pastel */
+    text-align: center; /*centrado del texto del header*/
+    padding: 20px; /*centrado del header*/
+}
+
+header h1 {
+    color: #d77b99; /*color de header */
+}
+
+header h2 {
+    color: #d77b99; /*color del h2 de header o titulo de la imagen*/
+}
+
+header img {
+    max-width: 80%; /*tamaño de la imagen */
+    height: auto; /*altura imaagen*/
+    border-radius: 10px; /*Bordes redondeados */
+}
+
+/*Estilo de los enlaces en el header*/
+header ul {
+    padding: 0; /*centrado de los enlaces del header*/
+}
+
+header ul li {
+    display: inline; /*posicion enlaces del header*/
+    margin: 0 15px; /*separacion de los enlaces del header*/
+}
+
+header ul li a {
+    text-decoration: none; /* evito el subrayado de los enlaces ancla*/
+    color: #4a2c6e; /* color enlace*/
+    transition: color 0.3s; /*tiempo de transicion de morado a rosa*/
+}
+
+header ul li a:hover {
+    color: #d77b99; /*color al que cambian los enlaces posicionando el cursor encima*/
+}
+
+/* Estilo de las secciones */
+section {
+    background-color: #fef3f3; /*color de fondo de las secciones*/
+    padding: 20px; /*tamaño secciones */
+    margin: 20px; /*espaciado secciones */
+    border-radius: 10px; /*redondeado de secciones*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra secciones*/
+}
+
+section h2 {
+    text-align: center; /*centrado del h2 de section */
+    color: #4a2c6e; /* Morado claro */
+}
+
+section p {
+    text-align: center; /*centrado de texto de parrafos*/
+    color: #616060; /* Texto gris oscuro */
+}
+
+/* Estilado listas ordenadas */
+ol {
+    padding-left: 0; /*centrado de lista*/
+}
+
+ol li {
+    display: flex;
+    justify-content: center; /* Centra contenido horizontal*/
+    align-items: center; /* Centrar contenido vertical*/
+    margin: 12px 0; /* Espacio entre partesde la lista*/
+    text-align: center; /*centrar texto */
+}
+
+ol li a {
+    text-decoration: none; /*elimina el subrayado de los enlaces */
+    color: #d77b99; /* color texto de las listas*/
+    transition: color 0.3s; /*tiempo detransicion del color original a morado*/
+}
+
+ol li a:hover {
+    color: #4a2c6e; /*cambiar color del link segun pases el cursor por encima*/
+}
